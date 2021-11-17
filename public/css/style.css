@@ -1,0 +1,78 @@
+.main{
+	margin:  30px auto 20px auto;
+	width: 700px;
+	font: normal small-caps 14px/16px Arial;
+	
+}
+a {text-decoration: none;}
+h1{
+	color: salmon;
+}
+h5{ color: salmon }
+.categories{
+	margin-top: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+	flex-wrap: wrap;
+}
+.theme_block{
+	width: 100px;
+	height: 100px;
+	border-radius: 10px;
+	background: salmon;
+	padding: 5px;
+	box-sizing: border-box;
+}
+.block_name{
+	margin-top:35%; 
+	text-align: center;
+	color: white;
+}
+input{
+	margin-top:15px;
+	margin-right: 2%;
+}
+button {
+	width: 120px;
+	height: 35px;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  font-size: 8pt;
+  padding: 5px 10px;
+  margin: 10px 20px;
+  border-color: white;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+  background-size: 200% auto;
+  transition: .5s;
+}
+button:hover {
+  background-position: right center;
+}
+.errors{
+	max-width: 50%;
+	background: #ff7575;
+	color: black;
+	font-size: 10pt;
+	padding-left: : 5px;
+	box-sizing: border-box;
+}
+.debts_output{
+	
+	  background-size: 200% auto;
+	margin-bottom: 10px;
+	border: 1px solid #9EEFE1;
+	border-radius: 5px;
+	max-width: 400px;
+	padding-left: 10px;
+	box-sizing: border-box;
+	color: gray;
+}
+#main{
+	margin-top: 300px;
+}
